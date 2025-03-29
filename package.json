@@ -1,0 +1,38 @@
+{
+  "name": "simply-slugy",
+  "version": "1.0.0",
+  "description": "Slug generation library supporting 44 languages for transliteration. Convert text into URL-friendly slugs. It provides various slug manipulation functions, including slugification, deslugification, validation, custom mappings, and locale-aware slug transformations. Ideal for SEO optimization, clean URLs, and structured text formatting.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnshSinghSonkhia/simply-slugy.git"
+  },
+  "keywords": [
+    "slug",
+    "slugify",
+    "deslugify",
+    "url",
+    "url-slug",
+    "text-to-slug",
+    "seo",
+    "friendly-url",
+    "seo-friendly",
+    "string-manipulation",
+    "slug-validation",
+    "custom-slug",
+    "locale-slug",
+    "transliteration"
+  ],
+  "author": "Ansh Singh Sonkhia",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/AnshSinghSonkhia/simply-slugy/issues"
+  },
+  "homepage": "https://github.com/AnshSinghSonkhia/simply-slugy#readme",
+  "dependencies": {
+    "diacritics": "^1.3.0"
+  }
+}
