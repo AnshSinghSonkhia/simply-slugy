@@ -60,6 +60,13 @@ console.log(simp.customSlugify("Rock & Roll @ 2025", customMap));
 // Slugify with Locale Example  (refer the supported languages list below)
 console.log(simp.slugifyWithLocale("München ist schön", "de"));   // de : German
         // Output: "muenchen-ist-schoen"
+
+// transliterations Example 
+console.log(simp.transliterations['de']); // Output: { 'ä': 'ae', 'ö': 'oe', 'ü': 'ue', 'ß': 'ss' }
+
+console.log(simp.transliterations['fr']); // Output: { 'é': 'e', 'è': 'e', 'à': 'a', 'ç': 'c', 'ô': 'o', 'û': 'u' }
+
+console.log(Object.keys(simp.transliterations)); // Lists all supported languages
 ```
 
 # 📜 API Reference
@@ -71,6 +78,8 @@ console.log(simp.slugifyWithLocale("München ist schön", "de"));   // de : Germ
 | `isValidSlug(slug)`   | Checks if a string is a valid slug. Returns `true` or `false`.             |
 | `customSlugify(input, customMap)` | Custom character mapping for slug conversion.                  |
 | `slugifyWithLocale(input, locale)` | Generates slugs with language-based transliteration.          |
+| `transliterations[locale]` | Provides transliteration mappings for a specific language (e.g., `transliterations['de']` for German). |
+
 
 # 🌍 Supported Languages for Transliteration:
 

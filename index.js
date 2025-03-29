@@ -3,5 +3,6 @@ module.exports = {
     deslugify: require('./src/deslugify'),
     isValidSlug: require('./src/isValidSlug'),
     customSlugify: require('./src/customSlugify'),
-    slugifyWithLocale: require('./src/slugifyWithLocale')
+    slugifyWithLocale: require('./src/slugifyWithLocale'),
+    transliterations: require('./src/transliterations')
 };
