@@ -1,6 +1,6 @@
 {
   "name": "simply-slugy",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Slug generation library supporting 44 languages for transliteration. Convert text into URL-friendly slugs. It provides various slug manipulation functions, including slugification, deslugification, validation, custom mappings, and locale-aware slug transformations. Ideal for SEO optimization, clean URLs, and structured text formatting.",
   "main": "index.js",
   "scripts": {
